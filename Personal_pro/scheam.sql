@@ -1,0 +1,3 @@
+CREATE DATEBASE IF NOT EXISTS jshdb;
+USE jshdb;
+ 
