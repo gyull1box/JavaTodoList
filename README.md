@@ -7,7 +7,12 @@ Calender를 활용한 To-do list
 1. 사용자가 list를 추가할 때마다 같은 name을 가진 checkBox, Panel, 삭제 Button을 생성하고 list를 판넬에 붙이는 방식을 사용함.
    list삭제 시 같은 라인의 list를 삭제해야하는데 해당 버튼의 parents를 삭제하면 최근에 추가한 판넬이 삭제되는 문제가 있었음.
    => 개별 판넬을 각각 Component 배열에 넣어 각각 한 배열에 세 요소가 들어있게하고 삭제 Button의 parent panel을 삭제함.
-   Component[] c = listPanel.getComponents();
+   
+		listPanel.add(chkBox, BorderLayout.WEST);
+		listPanel.add(delete, BorderLayout.EAST);
+		boardPanel.add(listPanel);
+
+		Component[] c = listPanel.getComponents();
 		ArrayList<Component> c2 = new ArrayList<>();
 		for (int i = 0; i < c.length; ++i) {
 			c2.add(c[i]);
@@ -28,6 +33,7 @@ Calender를 활용한 To-do list
 				boardPanel.repaint();
 			}
 		});
+
 
 ## 보완해야 하는 점
 1. Day Button의 function이 많아 코드가 길어짐.
