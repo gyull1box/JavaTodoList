@@ -41,6 +41,6 @@ Calender를 활용한 To-do list
 3. Day Button에 일정이 겹치면 Text가 겹침. 
 
 ## 유튜브 링크
-링크:
+[![Watch the video](https://img.youtube.com/vi/8vsSlwgwyzg/hqdefault.jpg)](https://www.youtube.com/watch?v=8vsSlwgwyzg)
 ## JAVADOC
-[API로!](https://github.com/gyull1box/JavaTodoList/blob/main/Personal_pro/doc/index.html)
+[API!](https://github.com/gyull1box/JavaTodoList/blob/main/Personal_pro/doc/index.html)
