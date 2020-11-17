@@ -39,3 +39,8 @@ Calender를 활용한 To-do list
 1. Day Button의 function이 많아 코드가 길어짐.
 2. list를 load시 Boolean부분 앞을 가져올 때 '+'사용해 사용자가 list에 '+'를 사용 시 list를 온전하게 못 불러올 수 있음.
 3. Day Button에 일정이 겹치면 Text가 겹침. 
+
+## 유튜브 링크
+링크:
+## JAVADOC
+링크:
