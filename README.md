@@ -43,4 +43,4 @@ Calender를 활용한 To-do list
 ## 유튜브 링크
 링크:
 ## JAVADOC
-[API]JavaTodoList/Personal_pro/doc/index.html
+[API로!](JavaTodoList/Personal_pro/doc/index.html)
